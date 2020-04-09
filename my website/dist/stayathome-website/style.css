@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#headdiv{
+  display: flex;
+  flex-direction: column;
+  background: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png');
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+  background-size: contain;
+  text-align: left;
+  width: 800px;
+  height: 250px;
+  font-family: "Abril Fatface", cursive;
+  color: #222 grey;
+}
+
+.first {
+  margin-top: 13%;
+  margin-left: 23%;
+  font-size: 20px; 
+}
+
+.second {
+  margin-top: -4%;
+  margin-left: 23%;
+  font-size: 45px;
+}
+
+.maindiv {
+  display: block;
+  width: 450px;
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  text-align: left;
+  color: #222 grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footerdiv {
+  background: #383838;
+  padding: 0px;
+  width: 500px;
+}
+
+.quote {
+  text-indent: -40px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;
+  background : #383838;
+  padding: 0px 10px 30px 50px;
+  width: 500px;
+}
+
+.quote:before {
+  content: '\201C';
+  color: white;
+  font-size: 70px;
+/*   padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; */
+}
+
+.header1 {
+  display: block;
+  width: 450px;
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 150%;
+  text-align: left;
+  color: #222 grey;
+/*   
+  color: #222 grey;
+  margin-top: 20px;
+  justify-content: left;
+  align-items: left;
+  font-variant: small-caps;
+  text-align: left; */
+}
+
+.header2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header3 {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -3%;
+ }
+
+button {
+  background: black;
+  height: 1px;
+  border: none;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+li{
+  border-radius: 0px;
+}
